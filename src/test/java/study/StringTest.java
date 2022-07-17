@@ -9,7 +9,7 @@ StringTest {
     @Test
     void replace() {
         String actual = "abc".replace("b", "d");
-        assertThat(actual).isEqualTo("adc");
+        assertThat(actual).isEqualTo("adc"); // 원래 String 값의 테스트 후 기대값
     }
 
     @Test
